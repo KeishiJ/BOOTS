@@ -98,33 +98,12 @@ header .navigation a:hover{
 .content .info-btn:hover{
     background: #0c4f60;
 }
-
-.media-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.media-icons a{
-    position: relative;
-    color: #111;
-    font-size: 25px;
-}
-
-.media-icons a:not(:last-child){
-    margin-right: 60px;
-}
-
-.media-icons a:hover{
-    transform: scale(1.5);
-}
-
 .content .banner img{
-   width: 600px;
-   height:500px;
-   margin-right: 40px;
-}
+    width: 600px;
+    height: 500px;
+    margin-right: 40px;
+ }
+
 footer {
     background: #262A53;
     height: 300px;
@@ -148,29 +127,21 @@ footer {
 }
 .footer-content p {
     max-width: 500 px;
-    margin: 10 px auto;
+    margin: 50px auto;
     line-height: 0px;
     font-size: small;
 }
-.socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-    line-height: 0px;
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 25px;
 }
-.socials li {
-    margin: 0 10px;
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
 }
-.socials a {
-    text-decoration: none;
-    color: #ffff;
-}
-.social a i{
-    font-size: 2px;
-}
-.socials a:hover i{
-    color: #FFB830;
+
+.media-icons a:hover{
+    transform: scale(1.5);
 }
 
