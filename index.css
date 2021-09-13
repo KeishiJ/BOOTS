@@ -9,7 +9,7 @@
 
 body{
     
-    background-color: #3E2C41;
+    background-color: #261C2C;
 }
 
 header{
@@ -92,6 +92,7 @@ header .navigation a:hover{
     letter-spacing: 2px;
     padding: 10px 20px;
     border-radius: 5px;
+    
 }
 
 .content .info-btn:hover{
@@ -120,7 +121,56 @@ header .navigation a:hover{
 }
 
 .content .banner img{
-   width: 400px;
+   width: 600px;
    height:500px;
    margin-right: 40px;
 }
+footer {
+    background: #262A53;
+    height: 300px;
+    width: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-style: normal;
+    font-size: 3 px;
+    font-weight: 400;
+    line-height: 3px;
+}
+.footer-content p {
+    max-width: 500 px;
+    margin: 10 px auto;
+    line-height: 0px;
+    font-size: small;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    line-height: 0px;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: #ffff;
+}
+.social a i{
+    font-size: 2px;
+}
+.socials a:hover i{
+    color: #FFB830;
+}
+
