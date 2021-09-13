@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 body{
@@ -24,16 +24,17 @@ header{
 
 header .logo{
     position: relative;
-    color: #355c7d;
+    color: #5C527F;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1px;
+    font-family: 'Anton', sans-serif;
 }
 
 header .navigation a{
-    color: #355c7d;
+    color: #5C527F;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
@@ -56,16 +57,18 @@ header .navigation a:hover{
     justify-content: space-between;
     padding: 50px 60px;
     align-items: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .content .info h2{
-    color: #226a80;
+    color: #5C527F;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 60px;
     margin-bottom: 30px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .content .info h2 span{
@@ -81,22 +84,25 @@ header .navigation a:hover{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .content .info-btn{
     color: #fff;
-    background: #226a80;
+    background: #5C527F;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
     padding: 10px 20px;
     border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
     
 }
 
 .content .info-btn:hover{
-    background: #0c4f60;
+    background: #5C527F;
 }
 .content .banner img{
     width: 600px;
@@ -130,10 +136,11 @@ footer {
     margin: 50px auto;
     line-height: 0px;
     font-size: small;
+    
 }
 .media-icons a{
     position: relative;
-    color: #111;
+    color: #fff;
     font-size: 25px;
 }
 
