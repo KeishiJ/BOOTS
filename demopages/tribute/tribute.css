@@ -49,18 +49,102 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-    background: #fff;
+    background: #5C527F;
 }
-
 .content{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 60px;
-    align-items: center;
     font-family: 'Roboto Mono', monospace;
+    color: #5C527F;
+    margin-top: 5%;
+    margin-left: 100px; 
 }
 h1{
     text-align: center;
     color: #5C527F;
     font-size: 80px;
+}    
+#quote{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+#originator{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+#p1{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: -300px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: #5C527F;
+}
+#p2{
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: #5C527F;
+}
+img{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 650px;
+    height: 550px;
+    filter: grayscale(0);
+}
+img:hover{
+    filter: grayscale(0);
+    transition: 3s;
+    cursor: default;
+}
+.back{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    background: rgb(131, 0, 44);
+    cursor: pointer;
+    padding: 12px 20px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    top: 90%;
+    right: 11%;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.back:hover{
+    background: gray;
+}
+.next{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    background: rgb(131, 0, 44);
+    cursor: pointer;
+    padding: 12px 20px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    top: 90%;
+    right: 5%;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.next:hover{
+    background: gray;
 }
