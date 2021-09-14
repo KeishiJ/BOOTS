@@ -47,7 +47,7 @@ header ul li a:hover ,
 header ul li a.active
 {
     background:  white;
-    color: #101820FF;
+    color: #911F27;
     transition: 0.5s;
 }
 .content{

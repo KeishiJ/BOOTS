@@ -65,6 +65,9 @@ header ul li a.active
     color: #101820FF;
     transition: 0.5s;
 }
+header .navigation a:hover{
+    background: #5C527F;
+}
 .content{
     display: flex;
     justify-content: space-between;
