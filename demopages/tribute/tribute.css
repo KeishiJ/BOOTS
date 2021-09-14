@@ -44,27 +44,8 @@ header .navigation a{
     transition-property: background;
 }
 
-header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header ul li{
-    list-style: none;
+header .navigation a:not(:last-child){
     margin-right: 30px;
-}
-header ul li a{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: white;
-    border-radius: 20px;
-}
-header ul li a:hover ,
-header ul li a.active
-{
-    background:  white;
-    color: #101820FF;
-    transition: 0.5s;
 }
 
 header .navigation a:hover{
