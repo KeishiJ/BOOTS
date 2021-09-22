@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
-
 body{
     background-color: #261C2C;
 }
@@ -52,6 +51,7 @@ header ul li a.active
     transition: 0.5s;
 }
 .card{
+    float: left;
     flex-basis: content;
     width: 280px;
     height: 230px;
@@ -74,28 +74,30 @@ header ul li a.active
     transform: translateY(10px);
 }
 .card1{
-    background-image: url(img/biotech.jpg);
+    background-image: url(img/wyze.png);
 }
 .card2{
-    background-image: url(img/learntech.png);
+    background-image: url(img/josh.jpg);
 }
 .card3{
-    background-image: url(img/iot.jpg);
-    
+    background-image: url(img/verkada.png);
+}
+.card4{
+    background-image: url(img/axzon.jpg);
 }
 .card h5{
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px black;
 }
 h5{
-    text-align: center;
+    text-align: left;
     color: rgb(0, 0, 0);
     text-emphasis: 10px;
 }
 h2{
     color: #5C527F;
     text-align: center;
-    font-size: 80px;
+    font-size: 65px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 4px;
@@ -109,47 +111,5 @@ h2{
     margin-top: -30px;
 }
 .content {
-    margin: 200px 0px;
-    
-}
-footer {
-    background: #262A53;
-    height: 300px;
-    width: auto;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-top: 40px;
-    color: #fff;
-}
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3 {
-    font-style: normal;
-    font-size: 3 px;
-    font-weight: 400;
-    line-height: 3px;
-}
-.footer-content p {
-    max-width: 500 px;
-    margin: 50px auto;
-    line-height: 0px;
-    font-size: small;
-    
-}
-.media-icons a{
-    position: relative;
-    color: #fff;
-    font-size: 25px;
-}
-
-.media-icons a:not(:last-child){
-    margin-right: 60px;
-}
-
-.media-icons a:hover{
-    transform: scale(1.5);
+    margin: 200px 20px;
 }
